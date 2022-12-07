@@ -12,12 +12,15 @@ function App() {
 	const [spents, setSpents] = useState<MoneyItem[]>([]);
 	const [savings, setSavings] = useState(0);
 	const [balance, setBalance] = useState(0);
-	const totalIncome = incomes.reduce(
-		(prev, current) => prev + current.amount,
-		0
-	);
-	const totalSpent = spents.reduce((prev, current) => prev + current.amount, 0);
 	useEffect(() => {
+		const totalIncome = incomes.reduce(
+			(prev, current) => prev + current.amount,
+			0
+		);
+		const totalSpent = spents.reduce(
+			(prev, current) => prev + current.amount,
+			0
+		);
 		setBalance(totalIncome - totalSpent - savings);
 	}, [incomes, spents, savings]);
 	return (

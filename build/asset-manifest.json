@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bof-budget-control-app/static/css/main.3ce9b016.css",
-    "main.js": "/bof-budget-control-app/static/js/main.489ec3ca.js",
-    "static/js/787.2d1435d0.chunk.js": "/bof-budget-control-app/static/js/787.2d1435d0.chunk.js",
-    "index.html": "/bof-budget-control-app/index.html",
-    "main.3ce9b016.css.map": "/bof-budget-control-app/static/css/main.3ce9b016.css.map",
-    "main.489ec3ca.js.map": "/bof-budget-control-app/static/js/main.489ec3ca.js.map",
-    "787.2d1435d0.chunk.js.map": "/bof-budget-control-app/static/js/787.2d1435d0.chunk.js.map"
+    "main.css": "./static/css/main.3ce9b016.css",
+    "main.js": "./static/js/main.55229f85.js",
+    "static/js/787.2d1435d0.chunk.js": "./static/js/787.2d1435d0.chunk.js",
+    "index.html": "./index.html",
+    "main.3ce9b016.css.map": "./static/css/main.3ce9b016.css.map",
+    "main.55229f85.js.map": "./static/js/main.55229f85.js.map",
+    "787.2d1435d0.chunk.js.map": "./static/js/787.2d1435d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce9b016.css",
-    "static/js/main.489ec3ca.js"
+    "static/js/main.55229f85.js"
   ]
 }

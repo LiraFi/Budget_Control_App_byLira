@@ -1,7 +1,7 @@
 {
   "name": "budget-control",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -22,7 +22,7 @@
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://lirafi.github.io/bof-budget-control-app",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
